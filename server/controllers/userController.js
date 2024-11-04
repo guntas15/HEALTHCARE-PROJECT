@@ -1,6 +1,6 @@
 const asyncHandler = require("express-async-handler");
 const bcrypt = require("bcrypt");
-const User = require("../models/userModel"); // Corrected variable name to 'User'
+const User = require("../models/userModel.js"); // Corrected variable name to 'User'
 require("dotenv").config();
 
 const registerUser = asyncHandler(async (req, res) => {
