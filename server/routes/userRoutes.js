@@ -5,4 +5,4 @@ const {
     // loginUser
 }=require("../controllers/userController");
 router.post("/register" , registerUser);
-module.exports=router;
+module.exports=router
